@@ -32,9 +32,7 @@ function information() {
 }
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('generateCVBtn').addEventListener('click', information)
-})
+document.addEventListener('DOMContentLoaded', information)
 function displayCV() {
     var cvJSON = localStorage.getItem('cv')
     if (cvJSON) {

@@ -60,11 +60,8 @@ footer {
 }
 
 
-@media (max-width: 600px) {
-    .container {
-        padding: 15px;
-    }
-}
+
+
 
 #full{
     margin-left: 30%;

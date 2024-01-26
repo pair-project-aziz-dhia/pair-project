@@ -81,7 +81,7 @@ input {
     box-sizing: border-box;
     display: inline-block;
     text-align: left;
-    float: right;
+   
   }
   label{
     color: white
@@ -94,7 +94,7 @@ input {
     box-sizing: border-box;
     display: inline-block;
     text-align: left;
-    float: right;
+
 }
 button{
     background-color: green;
