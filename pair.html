@@ -9,32 +9,28 @@
 <body>
      <ul class="nav">
             <li><a href="proj.html">HOME</a></li> 
-           
+
             <li><a href="contact.html">CONTACT</a></li>
         </ul>
     <header>
-       
+
         <h1>CV GENERATOR</h1>
     </header>
     <div class="divvv">
 
         <div>
             <h2 style="margin: 10px 330px;">YOUR DETAILS</h2>
-            
+
             <div class="profile-pic">
                 <label class="-label" for="file">
                   <span class="glyphicon glyphicon-camera"></span>
-                  
+
                 </label>
-                <input id="file" type="file" onchange="loadFile(event)"/>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Antu_insert-image.svg/768px-Antu_insert-image.svg.png" id="output" width="200" />
+
               </div>
-               
-               
-              
-        <label for="FullName">FULLNAME :</label><br>
+<label for="FullName">FULLNAME :</label><br>
         <input id="FullName" type="text" placeholder="Enter your fullname"><br>
-        
+
         <label for="email">EMAIL :</label><br>
         <input id="email" type="email" placeholder="Enter your Email"><br>
         <label for="PhoneNumber">PhoneNumber :</label><br>
@@ -45,7 +41,7 @@
         <input id="CodePostal" type="text" placeholder="Enter your code"><br>
         <label for="DateOfBirth">DateOfBirth :</label><br>
         <input id="DateOfBirth" type="date">
-       
+
         <label for="Education">Education :</label><br>
         <select id="Education">
             <option value="high school ">HighSchool</option>
@@ -53,20 +49,21 @@
             <option value="Diploma">Diploma</option>
             <option value="Postgraduate study">Postgraduate study</option>
           </select>
-        <input id="8" type="text" placeholder="certificate or other ..."><br>
-        <label for="WorkExperience">WoekExperience :</label><br>
+        <input id="OtherEducation" type="text" placeholder="certificate or other ..."><br>
+        <label for="WorkExperience">WorkExperience :</label><br>
         <input id="WorkExperience" type="text" placeholder="Enter your work exp"><br>
-        <label for="Laguages">Laguages :</label><br>
-        <input id="Laguages" type="text" placeholder="Enter your language"><br>
+        <label for="languages">Laguages :</label><br>
+        <input id="languages" type="text" placeholder="Enter your language"><br>
         <label for="Skills">Skills :</label><br>
         <input id="Skills" type="text" placeholder="Enter your skills"><br>
-        
-        <button><a  href="pair2.html">GENERATE CV</a></button>
-        
+
+
+        <button id="generateCVBtn">GENERATE CV</button>
+
         </div>
 
     </div>
-    
+
     <div class="nav">
     <ul>
         <li><a href="proj.html">HOME</a></li> 
@@ -76,4 +73,4 @@
     </div>
 </body>
 <script src="pair.js"></script>
-</html> 
+</html>

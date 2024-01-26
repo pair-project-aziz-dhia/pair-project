@@ -12,7 +12,7 @@ header{
     border: 10px solid rgb(7, 74, 93);
  
   margin-top: 3%;
-  
+
 }
 
 
@@ -29,7 +29,7 @@ body{
 }
 .divvv{
     background: linear-gradient(rgb(103, 101, 101),rgb(0, 0, 0));
-   
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,21 +37,21 @@ body{
     width: 164vh;
     margin-top: 50px;
     margin: 150px;
-  
-    
+
+
 }
 ul{
     display: flex;
     align-items: center;
     list-style: none;
-   
+
 }
 .nav{
     display: flex;
     align-items: center;
     margin-top: 20px;
   position: relative;
-   
+
     margin: 10px;
 
 }
@@ -68,13 +68,13 @@ a:hover{
     border-radius: 30px;
    background-color: white;
    color: rgb(34, 2, 50);
-    
+
 }
 .center{
     text-align: center;
 }
 input {
-   
+
     width: 120%;
     padding: 12px 20px;
     margin: 8px -83px 30px 0px;
@@ -106,6 +106,3 @@ button{
     width: 200px;
     height: 50px;
 }
-
-  
-  
